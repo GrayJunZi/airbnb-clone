@@ -31,6 +31,8 @@ npm run dev
 npm install react-icons --save
 ```
 
+## 二、注册模态框UI
+
 安装 `zustand`
 ```bash
 npm install zustand
@@ -49,4 +51,34 @@ npm install react-hook-form
 安装 `react-hot-toast`
 ```bash
 npm install react-hot-toast
+```
+
+## 三、使用NextAuth完成注册功能
+
+安装 `prisma`
+```bash
+npm install -D prisma
+```
+
+初始化 `prisma`
+```bash
+npx prisma init
+```
+
+vscode安装 `prisma` 扩展
+
+将 `prisma` 定义的 `schema` 推送到 MongoDB数据库中
+```bash
+npx prisma db push
+```
+
+安装 `next-auth`
+```bash
+npm install next-auth @prisma/client @next-auth/prisma-adapter
+```
+
+安装 `bcrypt`
+```bash
+npm install bcrypt
+npm install -D @types/bcrypt
 ```
