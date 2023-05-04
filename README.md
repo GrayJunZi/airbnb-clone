@@ -2,7 +2,7 @@
 
 我们将构建全站 Airbnb 克隆项目，将采用 `Next.js 13`、`React`、`Prisma`、`MongoDB`、`TailwindCSS` 等技术开发该项目。
 
-## 一、创建项目
+## 一、构建项目
 
 创建项目
 ```bash
@@ -29,4 +29,24 @@ npm run dev
 安装 `react-icons`
 ```bash
 npm install react-icons --save
+```
+
+安装 `zustand`
+```bash
+npm install zustand
+```
+
+安装 `axios`
+```bash
+npm install axios
+```
+
+安装 `react-hook-form`
+```bash
+npm install react-hook-form
+```
+
+安装 `react-hot-toast`
+```bash
+npm install react-hot-toast
 ```
