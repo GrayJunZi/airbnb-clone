@@ -84,3 +84,7 @@ npm install -D @types/bcrypt
 ```
 
 ## 四、登录功能
+
+使用 `NextAuth` 进行登录。
+
+## 五、使用Github进行登录
