@@ -3,7 +3,6 @@ import NextAuth, { AuthOptions } from "next-auth";
 import GithubProvider from "next-auth/providers/github";
 import CredentialsProvider from "next-auth/providers/credentials";
 import bcrypt from "bcrypt";
-
 import prisma from "@/app/libs/prismadb";
 
 export const authOptions: AuthOptions = {
@@ -23,7 +22,6 @@ export const authOptions: AuthOptions = {
         if (!credentials?.email || !credentials?.password) {
           throw new Error("Invalid credentials");
         }
-
         const user = await prisma.user.findUnique({
           where: {
             email: credentials.email,
