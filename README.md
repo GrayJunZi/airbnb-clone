@@ -88,3 +88,10 @@ npm install -D @types/bcrypt
 使用 `NextAuth` 进行登录。
 
 ## 五、使用Github进行登录
+
+## 六、类别UI
+
+安装 `query-string`
+```bash
+npm install query-string
+```
