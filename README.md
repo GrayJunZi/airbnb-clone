@@ -116,3 +116,5 @@ npm install leaflet
 npm install -D @types/leaflet
 npm install react-leaflet
 ```
+
+## 九、计数器组件
