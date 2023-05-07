@@ -95,3 +95,5 @@ npm install -D @types/bcrypt
 ```bash
 npm install query-string
 ```
+
+## 七、类别选择

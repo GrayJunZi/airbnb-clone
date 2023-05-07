@@ -2,6 +2,7 @@ import getCurrentUser from "./action/getCurrentUser";
 import ClientOnly from "./components/ClientOnly";
 import LoginModal from "./components/modals/LoginModal";
 import RegisterModal from "./components/modals/RegisterModal";
+import RentModal from "./components/modals/RentModal";
 import Navbar from "./components/navbar/Navbar";
 import ToasterPrvoider from "./components/providers/ToasterProvider";
 import "./globals.css";
@@ -25,6 +26,7 @@ export default async function RootLayout({
       <body className={inter.className}>
         <ClientOnly>
           <ToasterPrvoider />
+          <RentModal />
           <LoginModal />
           <RegisterModal />
           <Navbar currentUser={currentUser} />
