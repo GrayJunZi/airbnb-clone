@@ -97,3 +97,22 @@ npm install query-string
 ```
 
 ## 七、类别选择
+
+## 八、位置选择
+
+安装 `world-countries`
+```bash
+npm install world-countries
+```
+
+安装 `react-select`
+```bash
+npm install react-select
+```
+
+安装 `leaflet`
+```bash
+npm install leaflet
+npm install -D @types/leaflet
+npm install react-leaflet
+```
