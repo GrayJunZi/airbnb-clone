@@ -118,3 +118,10 @@ npm install react-leaflet
 ```
 
 ## 九、计数器组件
+
+## 十、上传组件
+
+安装 `next-cloudinary`
+```bash
+npm install next-cloudinary
+```
