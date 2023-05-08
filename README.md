@@ -125,3 +125,5 @@ npm install react-leaflet
 ```bash
 npm install next-cloudinary
 ```
+
+## 十一、完成创建功能
