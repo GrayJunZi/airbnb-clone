@@ -138,3 +138,11 @@ npm install date-fns
 ## 十三、收藏功能
 
 ## 十四、个人列表
+
+## 十五、预定组件
+
+安装 `react-date-range`
+```bash
+npm install react-date-range
+npm install -D @types/react-date-range
+```
