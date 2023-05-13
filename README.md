@@ -150,3 +150,5 @@ npm install -D @types/react-date-range
 ## 十六、行程功能
 
 ## 十七、预定功能
+
+## 十八、收藏功能
