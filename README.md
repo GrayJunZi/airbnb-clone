@@ -154,3 +154,9 @@ npm install -D @types/react-date-range
 ## 十八、收藏功能
 
 ## 十九、属性功能
+
+## 二十、过滤器功能
+
+```bash
+npm install react-spinners
+```
